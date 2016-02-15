@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TranslinkAsia::FOSHO</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="">
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--[if IE 8]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<!-- Bootstrap CSS  -->
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="screen">
+<!-- Normalize CSS  -->
+<link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen">
+<!-- Main CSS  -->
+<link rel="stylesheet" href="css/main-style.css" type="text/css" media="screen">
+<!-- Font Awesome CSS  -->
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<!--Animate CSS-->
+<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+
+<!-- Jquery JS  -->
+<script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+<!-- Bootstrap JS  -->
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<!--<script type="text/javascript" src="js/jquery.session.js"></script>-->
+<script type="text/javascript" src="js/jquery.cookie.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        if($.cookie('msg') != null && $.cookie('msg') != "")
+        {
+            $("div#onload-pop.modal, .modal-backdrop").hide();
+        }
+        else
+        {
+            $('#onload-pop').modal('show');
+            $.cookie('msg', 'str');
+        }
+    });
+</script>
+
+
+</head>
+    <!--[if lt IE 8]>
+    	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+<body>
+<!--Navigation-->
+<nav id="menu--slide-left" class="menu menu--slide-left">
+  <a class="menu__close menu__link text-center">&larr; &nbsp; CLOSE</a>
+  <div class="log-bx">
+        <ul>
+            <li><a href="register.html" class="btn rgstr-btn">REGISTER</a></li>
+            <li><a href="#login" class="btn lgn-btn">LOG IN</a></li>
+        </ul>
+    </div>
+  <div class="menu-bx">
+  <ul class="menu__items">
+    <li class="menu__item"><a href="index.html" class="menu__link hvr-bounce-to-right">Home</a></li>
+    <li class="menu__item"><a href="icontact.html" class="menu__link hvr-bounce-to-right">Emergency Contacts</a></li>
+    <li class="menu__item"><a href="booking.html" class="menu__link hvr-bounce-to-right">Book My Truck</a></li>
+    <li class="menu__item"><a href="track.html" class="menu__link hvr-bounce-to-right">Track My Truck</a></li>
+    <li class="menu__item"><a href="dcal.html" class="menu__link hvr-bounce-to-right">Distance Calculator</a></li>
+    <li class="menu__item"><a href="invoice.html" class="menu__link hvr-bounce-to-right">Invoices</a></li>
+    <li class="menu__item"><a href="bookinghistory.html" class="menu__link hvr-bounce-to-right">Booking History</a></li>
+    <li class="menu__item"><a href="settings.html" class="menu__link hvr-bounce-to-right">My Account</a></li>
+    <li class="menu__item"><a href="feature.html" class="menu__link hvr-bounce-to-right">App Features</a></li>
+    <li class="menu__item"><a href="ratechart.html" class="menu__link hvr-bounce-to-right">Rate Chart</a></li>
+    <li class="menu__item"><a href="about.html" class="menu__link hvr-bounce-to-right">About Us</a></li>
+    <li class="menu__item"><a href="support.html" class="menu__link hvr-bounce-to-right">Support Center</a></li>
+  </ul>
+  </div>
+  <div class="app-dwnld">
+  	<ul class="dwnld-btns">
+    <li class=""><a href="#"><img src="images/google_play_store.png" alt=""/></a></li>
+    <li class=""><a href="#"><img src="images/apple_ios_store.png" alt=""/></a></li>
+    <li class=""><a href="#"><img src="images/windows_store.png" alt=""/></a></li>
+    </ul>
+  </div>
+</nav>
+<!--/Navigation-->
+<!--Header-->
+<header id="wrapper" class="wrapper">
+  <main class="content">
+    <div class="container">
+        <div class="col-md-4 col-xs-4">
+            <div class="buttons nav-icon">
+                <a id="button--slide-left" class="menu_button"><i class="fa fa-bars"></i><!--&nbsp;<span>MENU</span>--></a>
+              </div>
+        </div>
+        <div class="col-md-4 col-xs-4">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" alt=""/></a>
+            </div>
+        </div>
+        <div class="col-md-4 col-xs-4">
+            <div class="log-btns">
+                <ul>
+                    <li><a href="#login" class="login btn lgn-btn" data-toggle="modal">LOG IN</a></li>
+                    <li><a href="register.html" class="btn register">REGISTER</a></li>
+                </ul>
+            </div>
+        </div>
+    </div><!-- /container -->
+  </main><!-- /content -->
+</header>
+<!--/Header-->
+<!--Banner-->
+<section id="banner">
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="images/banner-main.jpg" alt="Chania">
+        <div class="carousel-caption wow bounceInUp">
+            <h2>Your Goods Your Transport</h2><br>
+            <p>Book Trucks In One Touch</p>
+            <div class="book-link wow bounceInRight">
+                <a href="#">BOOK NOW&nbsp;<span class="glyphicon glyphicon-circle-arrow-right"></span></a>
+            </div>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="images/banner-main-2.jpg" alt="Chania">
+        <div class="carousel-caption wow bounceInUp">
+            <h2>Your Goods Your Transport</h2><br>
+            <p>Book Trucks In One Touch</p>
+            <div class="book-link wow bounceInRight">
+                <a href="#">BOOK NOW&nbsp;<span class="glyphicon glyphicon-circle-arrow-right"></span></a>
+            </div>
+        </div>
+      </div>
+    
+      <div class="item">
+        <img src="images/banner-main-3.jpg" alt="Flower">
+        <div class="carousel-caption wow bounceInUp">
+            <h2>Your Goods Your Transport</h2><br>
+            <p>Book Trucks In One Touch</p>
+            <div class="book-link wow bounceInRight">
+                <a href="#">BOOK NOW&nbsp;<span class="glyphicon glyphicon-circle-arrow-right"></span></a>
+            </div>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="images/banner-main-4.jpg" alt="Flower">
+        <div class="carousel-caption wow bounceInUp">
+            <h2>Your Goods Your Transport</h2><br>
+            <p>Book Trucks In One Touch</p>
+            <div class="book-link wow bounceInRight">
+                <a href="#">BOOK NOW&nbsp;<span class="glyphicon glyphicon-circle-arrow-right"></span></a>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    	<img src="images/slider-arrow-left.png" alt=""/>
+      <!--<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>-->
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    	<img src="images/slider-arrow-right.png" alt=""/>
+      <!--<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>-->
+    </a>
+  </div>
+</section>
+<!--/Banner-->
+
+<!--Features-->
+<section id="features" class="padding-medium">
+	<div class="container">
+    	<div class="section-title">
+        	<h3 class="text-center fosho">FOSHO <span>Features</span></h3>
+            <p class="text-center">Book, Load and Track Truck via your mobile phone</p>
+        </div>
+        <div class="app-features">
+        	<div class="row">
+            	<div class="col-md-4 col-sm-4 col-xs-4">
+                	<div class="app-ftre-bx grid">
+                    	<figure class="effect-hera">
+                            <img src="images/mobile.png" alt="img17"/>
+                            <figcaption onclick="location.href='feature.html'">
+                                <h2>One Touch Booking</h2>
+                                <p>
+                                    <a href="feature.html"><i class="fa fa-search-plus"></i></a>
+                                </p>
+                            </figcaption>			
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-4">
+                	<div class="app-ftre-bx grid">
+                    	<figure class="effect-hera">
+                            <img src="images/mobile.png" alt="img17"/>
+                            <figcaption onclick="location.href='feature.html'">
+                                <h2>Reliable Transportation</h2>
+                                <p>
+                                    <a href="feature.html"><i class="fa fa-search-plus"></i></a>
+                                </p>
+                            </figcaption>			
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-4">
+                	<div class="app-ftre-bx grid">
+                    	<figure class="effect-hera">
+                            <img src="images/mobile.png" alt="img17"/>
+                            <figcaption onclick="location.href='feature.html'">
+                                <h2>Transparent Pricing</h2>
+                                <p>
+                                    <a href="feature.html"><i class="fa fa-search-plus"></i></a>
+                                </p>
+                            </figcaption>			
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+            	<div class="col-md-4 col-sm-4 col-xs-4">
+                	<div class="app-ftre-bx grid">
+                    	<figure class="effect-hera">
+                            <img src="images/mobile.png" alt="img17"/>
+                            <figcaption onclick="location.href='feature.html'">
+                                <h2>Trucks Tracking</h2>
+                                <p>
+                                    <a href="feature.html"><i class="fa fa-search-plus"></i></a>
+                                </p>
+                            </figcaption>			
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-4">
+                	<div class="app-ftre-bx grid">
+                    	<figure class="effect-hera">
+                            <img src="images/mobile.png" alt="img17"/>
+                            <figcaption onclick="location.href='feature.html'">
+                                <h2>Booking History</h2>
+                                <p>
+                                    <a href="feature.html"><i class="fa fa-search-plus"></i></a>
+                                </p>
+                            </figcaption>			
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-4">
+                	<div class="app-ftre-bx grid">
+                    	<figure class="effect-hera">
+                            <img src="images/mobile.png" alt="img17"/>
+                            <figcaption onclick="location.href='feature.html'">
+                                <h2>Feedback Matters</h2>
+                                <p>
+                                    <a href="feature.html"><i class="fa fa-search-plus"></i></a>
+                                </p>
+                            </figcaption>			
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--/Features-->
+
+<!--Truck Option-->
+<section id="truck-option">
+    <div class="container">
+    	<div class="section-title">
+        	<h3 class="text-center"><span>Multiple</span> TRUCK <span>Choice</span></h3>
+            <p class="text-center">Choose a truck as per your loads</p>
+        </div>
+        <div class="tabbable">
+            <div class="tab-content">
+                <div id="tab1" class="tab-pane active">
+                	<img src="images/cargo-container.png" alt="" class="wow slideInRight"/>
+                    <div class="truck-title">
+                    	<h3 class="text-center">CARGO TRAILER OPEN BODY</h3>
+                    </div>
+                </div>
+                <div id="tab2" class="tab-pane">
+                	<img src="images/oil-container.png" alt="" class="wow slideInRight"/>
+                    <div class="truck-title">
+                    	<h3 class="text-center">6 WHEEL OPEN DALA</h3>
+                    </div>
+                </div>
+                <div id="tab3" class="tab-pane">
+                	<img src="images/open-dala.png" alt="" class="wow slideInRight"/>
+                    <div class="truck-title">
+                    	<h3 class="text-center">10 WHEEL OPEN DALA</h3>
+                    </div>
+                </div>
+                <div id="tab4" class="tab-pane">
+                	<img src="images/canter.png" alt="" class="wow slideInRight"/>
+                    <div class="truck-title">
+                    	<h3 class="text-center">12 WHEEL OPEN DALA</h3>
+                    </div>
+                </div>
+        	</div>
+        </div>
+    </div>
+    <div class="tab-nav">
+    	<div class="container">
+            <ul class="nav nav-tabs truck-choice">
+            <li class="active"><a href="#tab1" data-toggle="tab"><img src="images/truck-icon-1.png" alt=""/><br>CARGO TRAILER</a></li>
+            <li><a href="#tab2" data-toggle="tab"><img src="images/truck-icon-2.png" alt=""/><br>6 WHEEL OPEN DALA</a></li>
+            <li><a href="#tab3" data-toggle="tab"><img src="images/truck-icon-3.png" alt=""/><br>10 WHEEL OPEN DALA</a></li>
+            <li><a href="#tab4" data-toggle="tab"><img src="images/truck-icon-4.png" alt=""/><br>12 WHEEL OPEN DALA</a></li>
+            </ul>
+        </div>
+    </div>
+</section>
+<!--/Truck Option-->
+
+<!--Location-->
+<section id="location" class="padding-medium">
+	<!--<div class="map"></div>-->
+	<div class="container">
+    	<div class="section-title">
+        	<h3 class="text-center"><span>GET</span> LOCATION</h3>
+            <h3 class="text-center aaa">We Are Operational in India Now</h3>
+        </div>
+        <div class="search-city">
+            <div class="row">
+            	<div class="col-lg-3"></div>
+                <div class="col-lg-6">
+                    <div class="input-group" style="box-shadow: 0px 0px 3px 5px rgba(0,0,0,0.5); border-radius: 3px;">
+                        <input type="text" class="form-control search" placeholder="Search for...">
+                        <span class="input-group-btn">
+                        <button class="btn btn-default search-btn" type="button"><i class="fa fa-search"></i></button>
+                        </span>
+                	</div><!-- /input-group -->
+                    <a href="" class="vew-cty">VIEW ALL CITY</a>
+                </div><!-- /.col-lg-6 -->
+            	<div class="col-lg-3"></div>
+            </div><!-- /.row -->
+        </div>
+    </div>
+</section>
+<!--/Location-->
+
+<!--Top Footer-->
+<section id="top-footer" class="padding-medsmall">
+	<div class="container">
+    	<div class="row">
+        	<div class="col-lg-6 col-xs-12 social-links">
+            	<ul>
+                	<li><a href="" class="facebook"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="" class="twitter"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+            <div class="col-lg-6 col-xs-12 down-links">
+            	<ul>
+                	<li class=""><a href="#"><img src="images/google_play_store.png" alt=""/></a></li>
+                    <li class=""><a href="#"><img src="images/apple_ios_store.png" alt=""/></a></li>
+                    <li class=""><a href="#"><img src="images/windows_store.png" alt=""/></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!--/Top Footer-->
+
+<!--Footer-->
+<footer id="footer">
+	<div class="container">
+    	<div class="row">
+        	<div class="col-lg-8 footer-links">
+            	<ul>
+                	<li><a href="index.html">HOME</a></li>
+                    <li>|</li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li>|</li>
+                    <li><a href="support.html">SUPPORT CENTER</a></li>
+                    <li>|</li>
+                    <li><a href="tc.html">TERMS OF SERVICES</a></li>
+                    <li>|</li>
+                    <li><a href="pp.html">PRIVACY POLICY</a></li>
+                    <li>|</li>
+                    <li><a href="disclaimer.html">DISCLAIMER</a></li>
+
+                </ul>
+            </div>
+            <div class="col-lg-4 copyright">
+            	<p>Copyright©Translinkasia.com | All Rights Reserved</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--/Footer-->
+
+<!--LOGIN POPUP-->
+<div id="login" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog login-dialog">
+        <div class="modal-content login-content">
+            <div class="modal-header login-header">
+                <button type="button" class="close login-close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <div class="log-title">
+                	<h4 class="modal-title login-title">LOG IN</h4>
+                    <div class="signup-txt">Don't Have Account? <span><a href="register.html">Sign Up&nbsp;<i class="fa fa-arrow-circle-right"></i></a></span></div>
+                </div>
+            </div>
+            <div class="modal-body login-body">
+            	<div class="form">
+                <div class="input-group login-group">
+                    <span class="input-group-addon input-group-reg"><i class="glyphicon glyphicon-user"></i></span>
+                    <input id="user" type="text" class="form-control input-bdr" name="user" value="" placeholder="Pan No.">                                       
+                </div>
+                <span style="display:none;">error!</span> 
+
+                <div class="input-group login-group">
+                    <span class="input-group-addon input-group-reg"><i class="glyphicon glyphicon-lock"></i></span>
+                    <input id="password" type="password" class="form-control input-bdr" name="password" placeholder="Password">
+                </div>                                                                  
+				<span style="display:none;">error!</span> 
+                <div class="frgt">
+                	<a href="forgotpassword.html">Forgot Password?</a>
+                </div>
+                <div class="form-group login-group">
+                    <!-- Button -->
+                    <div class="controls">
+                        <button type="submit" href="#" class="btn btn-primary login-btn">LOGIN</button>                          
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--LOGIN POPUP-->
+
+<!--App Feature POPUP-->
+<div class="modal fade bs-example-modal-lg window" id="onload-pop" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog modal-lg ftre-pop-dialog">
+    <div class="modal-content ftre-pop-content">
+      <div class="modal-body ftre-pop-body">
+     	<button type="button" class="close pop-close" id="pop-close" data-dismiss="modal" aria-hidden="true">×</button>
+        <div class="modal-header pop-header">
+        <H2><img src="images/fosho_logo.png" alt=""/></H2>
+        </div>
+        <div class="features-box row">
+        	<div class="col-md-4 col-sm-4 col-xs-4">
+            	<div class="panel">
+                	<div class="panel-body pp-bd">
+                    	<img src="images/touch.png" alt=""/>
+                    </div>
+                    <div class="panel-footer pp-ftr">
+                    	<h3>One Touch Booking</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-4">
+            	<div class="panel">
+                	<div class="panel-body pp-bd">
+                    	<img src="images/track.png" alt=""/>
+                    </div>
+                    <div class="panel-footer pp-ftr">
+                    	<h3>Frieghts Tracking</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-4">
+            	<div class="panel">
+                	<div class="panel-body pp-bd">
+                    	<img src="images/pricing.png" alt="" style="width:45px"/>
+                    </div>
+                    <div class="panel-footer pp-ftr">
+                    	<h3>Transparent Fares</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="get-links">
+            <div class = "input-group">
+                <input type="text" class="form-control get-link-ctrl" placeholder="ENTER 10 DIGIT MOBILE NUMBER">
+                <span class="input-group-btn">
+                <button class="btn btn-default btn-gtlink" type="button">Get Link!
+                </button>
+                </span>
+            </div>
+            <span>Get link to download FOSHO APP via SMS</span>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+<!--<script type="text/javascript">
+	$(document).ready(function(){
+		$("#onload-pop").modal('show');
+	});
+</script>-->
+<!--/App Feature POPUP-->
+<!-- Whole screen Mask for menu -->
+<div id="mask" class="mask"></div><!-- /mask -->
+<!-- /Whole screen Mask for menu -->
+<script src="js/classie.js"></script>
+<script src="js/main.js"></script>
+<!-- Script to Activate the Carousel -->
+<script>
+$('.carousel').carousel({
+	interval: false //changes the speed
+})
+</script>
+<script>
+/**
+* Menu Slide Out Effect.
+*/
+var slideLeft = new Menu({
+wrapper: '#wrapper',
+type: 'slide-left',
+menuOpenerClass: '.menu_button',
+maskId: '#mask'
+});
+
+var slideLeftBtn = document.querySelector('#button--slide-left');
+
+slideLeftBtn.addEventListener('click', function(e) {
+e.preventDefault;
+slideLeft.open();
+});
+</script>
+<script src="js/wow.min.js"></script>
+<script>
+	 new WOW().init();
+</script>
+<!--Move To Top-->
+<!--<a href="#topest-header" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>-->
+<!--/Move To Top-->
+</body>
+</html>
